@@ -36,6 +36,9 @@
             "endpoint": {
               "$ref": "../types/azure-event-hubs-endpoint.json"
                         }
+          },
+          "connection_str": {
+            "type": "string"
           }
         }
       }
